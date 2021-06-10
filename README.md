@@ -2,7 +2,7 @@
 Used to replace the twitch.center API if you want to host it yourself and use a database.
 
 ## Requirements
-A database named ```twitch```, with a table named ```quotes``` with the fields ```q_id``` (Auto-Increment), ```quote```, ```date```, ```game```, and ```stream_title```.
+A database named ```twitch```, with a table named ```quotes``` with the fields ```q_index``` (Auto-Increment), ```q_id```, ```quote```, ```date```, ```game```, and ```stream_title```.
 
 A user with access to the database, by default named ```twitch_daemon```.
 
